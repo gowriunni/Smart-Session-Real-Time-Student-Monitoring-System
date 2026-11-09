@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6f8;
+    text-align: center;
+    padding-top: 60px;
+}
+
+h1 {
+    margin-bottom: 40px;
+}
+
+#status-box {
+    width: 400px;
+    height: 120px;
+    margin: auto;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 26px;
+    font-weight: bold;
+    color: white;
+}
+
+/* Status colors */
+.normal {
+    background-color: #2ecc71; /* Green */
+}
+
+.happy {
+    background-color: #f1c40f; /* Yellow */
+    color: black;
+}
+
+.confused {
+    background-color: #e67e22; /* Orange */
+}
+
+.suspicious {
+    background-color: #e74c3c; /* Red */
+}
+

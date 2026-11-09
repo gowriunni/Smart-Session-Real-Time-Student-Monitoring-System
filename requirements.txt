@@ -1,0 +1,6 @@
+fastapi
+uvicorn
+websocket-client
+opencv-python
+mediapipe
+numpy
